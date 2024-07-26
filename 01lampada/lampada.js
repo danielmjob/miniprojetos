@@ -11,5 +11,9 @@ function lampOff(){
     lamp.src = './img/desligada.jpg';
 }
 
+
+
 turnOn.addEventListener ('click',lampOn);
 turnOff.addEventListener ('click', lampOff)
+lamp.addEventListener ('mouseover', lampOn);
+lamp.addEventListener('mouseleave', lampOff);
